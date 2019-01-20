@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/myBooks/myBooks",
+    "pages/home/home",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFA589",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#EEEEEE",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"阅读广场",
+        "iconPath":"images/TabbarHomeN.png",
+        "selectedIconPath":"images/TabbarHomeS.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "寻找书籍",
+        "iconPath": "images/TabbarSearchN.png",
+        "selectedIconPath": "images/TabbarSearchS.png"
+      },
+      {
+        "pagePath": "pages/myBooks/myBooks",
+        "text": "我的空间",
+        "iconPath": "images/TabbarCollectN.png",
+        "selectedIconPath": "images/TabbarCollectS.png"
+      }
+    ],
+    "borderStyle":"white",
+    "backgroundColor":"#f0f0f0",
+    "selectedColor":"#lead16"
+  }
+}
